@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AE11DFFC479DBE755C9D262 /* Pods_Mini_Arithmetic_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE2266DE2CD9698912429A9 /* Pods_Mini_Arithmetic_App.framework */; };
+		F5DFA3D428FDA40900795994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFA3D328FDA40900795994 /* AppDelegate.swift */; };
+		F5DFA3D628FDA40900795994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFA3D528FDA40900795994 /* SceneDelegate.swift */; };
+		F5DFA3D828FDA40900795994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFA3D728FDA40900795994 /* ViewController.swift */; };
+		F5DFA3DB28FDA40900795994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DFA3D928FDA40900795994 /* Main.storyboard */; };
+		F5DFA3DD28FDA40B00795994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DFA3DC28FDA40B00795994 /* Assets.xcassets */; };
+		F5DFA3E028FDA40B00795994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DFA3DE28FDA40B00795994 /* LaunchScreen.storyboard */; };
+		F5DFA3E828FDA7DE00795994 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFA3E728FDA7DE00795994 /* CalculationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE2266DE2CD9698912429A9 /* Pods_Mini_Arithmetic_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mini_Arithmetic_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79676C55CFF6039F71BA17BD /* Pods-Mini Arithmetic App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mini Arithmetic App.debug.xcconfig"; path = "Target Support Files/Pods-Mini Arithmetic App/Pods-Mini Arithmetic App.debug.xcconfig"; sourceTree = "<group>"; };
+		7B75241E246AED048D3F893D /* Pods-Mini Arithmetic App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mini Arithmetic App.release.xcconfig"; path = "Target Support Files/Pods-Mini Arithmetic App/Pods-Mini Arithmetic App.release.xcconfig"; sourceTree = "<group>"; };
+		F5DFA3D028FDA40900795994 /* Mini Arithmetic App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Arithmetic App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DFA3D328FDA40900795994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5DFA3D528FDA40900795994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5DFA3D728FDA40900795994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5DFA3DA28FDA40900795994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5DFA3DC28FDA40B00795994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5DFA3DF28FDA40B00795994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5DFA3E128FDA40B00795994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DFA3E728FDA7DE00795994 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5DFA3CD28FDA40900795994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE11DFFC479DBE755C9D262 /* Pods_Mini_Arithmetic_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417A9F101953F363C8689E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79676C55CFF6039F71BA17BD /* Pods-Mini Arithmetic App.debug.xcconfig */,
+				7B75241E246AED048D3F893D /* Pods-Mini Arithmetic App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CD1A51F7471E79E9A598927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2266DE2CD9698912429A9 /* Pods_Mini_Arithmetic_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5DFA3C728FDA40900795994 = {
+			isa = PBXGroup;
+			children = (
+				F5DFA3D228FDA40900795994 /* Mini Arithmetic App */,
+				F5DFA3D128FDA40900795994 /* Products */,
+				417A9F101953F363C8689E1A /* Pods */,
+				5CD1A51F7471E79E9A598927 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5DFA3D128FDA40900795994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5DFA3D028FDA40900795994 /* Mini Arithmetic App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5DFA3D228FDA40900795994 /* Mini Arithmetic App */ = {
+			isa = PBXGroup;
+			children = (
+				F5DFA3D328FDA40900795994 /* AppDelegate.swift */,
+				F5DFA3D528FDA40900795994 /* SceneDelegate.swift */,
+				F5DFA3D728FDA40900795994 /* ViewController.swift */,
+				F5DFA3E728FDA7DE00795994 /* CalculationViewController.swift */,
+				F5DFA3D928FDA40900795994 /* Main.storyboard */,
+				F5DFA3DC28FDA40B00795994 /* Assets.xcassets */,
+				F5DFA3DE28FDA40B00795994 /* LaunchScreen.storyboard */,
+				F5DFA3E128FDA40B00795994 /* Info.plist */,
+			);
+			path = "Mini Arithmetic App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5DFA3CF28FDA40900795994 /* Mini Arithmetic App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DFA3E428FDA40B00795994 /* Build configuration list for PBXNativeTarget "Mini Arithmetic App" */;
+			buildPhases = (
+				ADCF11AFDB43C13C32A7ACC3 /* [CP] Check Pods Manifest.lock */,
+				F5DFA3CC28FDA40900795994 /* Sources */,
+				F5DFA3CD28FDA40900795994 /* Frameworks */,
+				F5DFA3CE28FDA40900795994 /* Resources */,
+				512FF1A0C5570726292B7868 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini Arithmetic App";
+			productName = "Mini Arithmetic App";
+			productReference = F5DFA3D028FDA40900795994 /* Mini Arithmetic App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5DFA3C828FDA40900795994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F5DFA3CF28FDA40900795994 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F5DFA3CB28FDA40900795994 /* Build configuration list for PBXProject "Mini Arithmetic App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5DFA3C728FDA40900795994;
+			productRefGroup = F5DFA3D128FDA40900795994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5DFA3CF28FDA40900795994 /* Mini Arithmetic App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5DFA3CE28FDA40900795994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DFA3E028FDA40B00795994 /* LaunchScreen.storyboard in Resources */,
+				F5DFA3DD28FDA40B00795994 /* Assets.xcassets in Resources */,
+				F5DFA3DB28FDA40900795994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		512FF1A0C5570726292B7868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mini Arithmetic App/Pods-Mini Arithmetic App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mini Arithmetic App/Pods-Mini Arithmetic App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mini Arithmetic App/Pods-Mini Arithmetic App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCF11AFDB43C13C32A7ACC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mini Arithmetic App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5DFA3CC28FDA40900795994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DFA3E828FDA7DE00795994 /* CalculationViewController.swift in Sources */,
+				F5DFA3D828FDA40900795994 /* ViewController.swift in Sources */,
+				F5DFA3D428FDA40900795994 /* AppDelegate.swift in Sources */,
+				F5DFA3D628FDA40900795994 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5DFA3D928FDA40900795994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5DFA3DA28FDA40900795994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5DFA3DE28FDA40B00795994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5DFA3DF28FDA40B00795994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5DFA3E228FDA40B00795994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5DFA3E328FDA40B00795994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5DFA3E528FDA40B00795994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79676C55CFF6039F71BA17BD /* Pods-Mini Arithmetic App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mini Arithmetic App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "irvinakocan.com.Mini-Arithmetic-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5DFA3E628FDA40B00795994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B75241E246AED048D3F893D /* Pods-Mini Arithmetic App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mini Arithmetic App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "irvinakocan.com.Mini-Arithmetic-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5DFA3CB28FDA40900795994 /* Build configuration list for PBXProject "Mini Arithmetic App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DFA3E228FDA40B00795994 /* Debug */,
+				F5DFA3E328FDA40B00795994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DFA3E428FDA40B00795994 /* Build configuration list for PBXNativeTarget "Mini Arithmetic App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DFA3E528FDA40B00795994 /* Debug */,
+				F5DFA3E628FDA40B00795994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5DFA3C828FDA40900795994 /* Project object */;
+}
